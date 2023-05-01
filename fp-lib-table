@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name SS1_ATX)(type KiCad)(uri ${KIPRJMOD}/SS1_ATX)(options "")(descr ""))
+)
