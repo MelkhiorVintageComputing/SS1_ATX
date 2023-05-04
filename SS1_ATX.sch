@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:SS1_ATX-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -482,8 +481,8 @@ F 8 "15247140" H 6350 2550 50  0001 C CNN "MPN"
 $EndComp
 NoConn ~ 6850 2850
 NoConn ~ 5850 2850
-Text Notes 6850 2100 0    50   ~ 0
-From the SS2 service manual:\n« Note – The Por Signal is a TTL open collector and pull up is on the main logic board »
+Text Notes 6650 3700 0    50   ~ 0
+From the SS2 service manual:\n« Note – The Por Signal is a TTL open collector and pull up is on the main logic board »\nand\n« Por is a Power-On reset TTL open collector signal \nfrom the power supply, which is activated after DC voltages have risen »
 $Comp
 L 74xGxx:74LVC1G06 U2
 U 1 1 644FA700
@@ -558,4 +557,6 @@ F 4 "0603WAF1001T5E" H 4950 3750 50  0001 C CNN "MPN"
 	1    4950 3750
 	0    1    1    0   
 $EndComp
+Text Notes 6900 2950 0    50   ~ 0
+7, 14: excess pins, 2x6 doesnt seem to exist for PCB
 $EndSCHEMATC
