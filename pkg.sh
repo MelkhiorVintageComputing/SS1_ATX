@@ -18,7 +18,7 @@ POS_FILES="SS1_ATX-top.pos"
 
 DRL_FILES="SS1_ATX-NPTH.drl SS1_ATX-PTH.drl SS1_ATX-PTH-drl_map.ps SS1_ATX-NPTH-drl_map.ps"
 
-FILES="${GERBER_FILES} ${POS_FILES} ${DRL_FILES} top.pdf bottom.pdf SS1_ATX.d356 SS1_ATX.csv"
+FILES="${GERBER_FILES} ${POS_FILES} ${DRL_FILES} top.pdf SS1_ATX.d356 SS1_ATX.csv"
 # bottom.pdf
 
 echo $FILES

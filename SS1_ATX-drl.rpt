@@ -1,5 +1,5 @@
 Drill report for /Users/dolbeau/SS1_ATX/SS1_ATX.kicad_pcb
-Created on Lundi 01 mai 2023 à 14:04:04
+Created on Samedi 06 mai 2023 à 09:45:51
 
 Copper Layer Stackup:
     =============================================================
@@ -12,10 +12,10 @@ Copper Layer Stackup:
 Drill file 'SS1_ATX-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0,40mm  0,016"  (4 holes)
+    T1  0,40mm  0,016"  (8 holes)
     T2  1,40mm  0,055"  (38 holes)
 
-    Total plated holes count 42
+    Total plated holes count 46
 
 
 Drill file 'SS1_ATX-NPTH.drl' contains

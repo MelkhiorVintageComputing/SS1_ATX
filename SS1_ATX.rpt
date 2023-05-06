@@ -1,13 +1,34 @@
-## Footprint report - date Lundi 01 mai 2023 à 14:05:07
-## Created by Pcbnew version kicad (5.0.2-5)-5
+## Footprint report - date Saturday, May 06, 2023 at 09:46:27 AM
+## Created by Pcbnew version kicad (5.1.9-0-10_14)
 ## Unit = mm, Angle = deg.
 
 $BeginDESCRIPTION
 
 $BOARD
 upper_left_corner 89.974999 109.974999
-lower_right_corner 151.625001 138.425001
+lower_right_corner 153.276076 138.425001
 $EndBOARD
+
+$MODULE "R1"
+reference "R1"
+value "0"
+footprint "Resistor_SMD:R_0603_1608Metric"
+attribut smd
+position 136.920000 122.360000  orientation 180.00
+layer front
+$PAD "1"
+Shape Roundrect Layer front
+position -0.787500  0.000000  size  0.875000  0.950000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Roundrect Layer front
+position  0.787500  0.000000  size  0.875000  0.950000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R1
 
 $MODULE "J2"
 reference "J2"
@@ -23,91 +44,91 @@ drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "2"
-Shape Cercle Layer both
+Shape Circle Layer both
 position  4.200000  0.000000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "None"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -4.700000  6.060000  size  3.000000  3.000000  orientation 0.00
 drill  3.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "8"
-Shape Cercle Layer both
+Shape Circle Layer both
 position  0.000000  5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "9"
-Shape Cercle Layer both
+Shape Circle Layer both
 position  4.200000  5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "None"
-Shape Cercle Layer both
+Shape Circle Layer both
 position 29.900000  6.060000  size  3.000000  3.000000  orientation 0.00
 drill  3.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "3"
-Shape Cercle Layer both
+Shape Circle Layer both
 position  8.400000  0.000000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "4"
-Shape Cercle Layer both
+Shape Circle Layer both
 position 12.600000  0.000000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "5"
-Shape Cercle Layer both
+Shape Circle Layer both
 position 16.800000  0.000000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "6"
-Shape Cercle Layer both
+Shape Circle Layer both
 position 21.000000  0.000000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "7"
-Shape Cercle Layer both
+Shape Circle Layer both
 position 25.200000  0.000000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "10"
-Shape Cercle Layer both
+Shape Circle Layer both
 position  8.400000  5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "11"
-Shape Cercle Layer both
+Shape Circle Layer both
 position 12.600000  5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "12"
-Shape Cercle Layer both
+Shape Circle Layer both
 position 16.800000  5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "13"
-Shape Cercle Layer both
+Shape Circle Layer both
 position 21.000000  5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "14"
-Shape Cercle Layer both
+Shape Circle Layer both
 position 25.200000  5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
@@ -122,13 +143,13 @@ attribut smd
 position 144.925780 121.226862  orientation 0.00
 layer front
 $PAD "2"
-Shape Rectarrondi Layer front
+Shape Roundrect Layer front
 position  0.825000  0.000000  size  0.800000  0.950000  orientation 0.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "1"
-Shape Rectarrondi Layer front
+Shape Roundrect Layer front
 position -0.825000  0.000000  size  0.800000  0.950000  orientation 0.00
 drill  0.000000
 shape_offset  0.000000  0.000000
@@ -143,151 +164,151 @@ attribut none
 position 97.500000 128.300000  orientation 180.00
 layer front
 $PAD "None"
-Shape Cercle Layer both
+Shape Circle Layer both
 position  4.700000 -5.040000  size  3.000000  3.000000  orientation 0.00
 drill  3.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "None"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -50.900000 -5.040000  size  3.000000  3.000000  orientation 0.00
 drill  3.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "24"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -46.200000 -5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "23"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -42.000000 -5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "22"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -37.800000 -5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "21"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -33.600000 -5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "20"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -29.400000 -5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "19"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -25.200000 -5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "18"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -21.000000 -5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "17"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -16.800000 -5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "16"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -12.600000 -5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "15"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -8.400000 -5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "14"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -4.200000 -5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "13"
-Shape Cercle Layer both
+Shape Circle Layer both
 position  0.000000 -5.500000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "12"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -46.200000  0.000000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "11"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -42.000000  0.000000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "10"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -37.800000  0.000000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "9"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -33.600000  0.000000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "8"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -29.400000  0.000000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "7"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -25.200000  0.000000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "6"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -21.000000  0.000000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "5"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -16.800000  0.000000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "4"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -12.600000  0.000000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "3"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -8.400000  0.000000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "2"
-Shape Cercle Layer both
+Shape Circle Layer both
 position -4.200000  0.000000  size  1.900000  1.900000  orientation 0.00
 drill  1.400000
 shape_offset  0.000000  0.000000
@@ -308,13 +329,13 @@ attribut smd
 position 148.925780 121.226862  orientation 180.00
 layer front
 $PAD "2"
-Shape Rectarrondi Layer front
+Shape Roundrect Layer front
 position  0.937500  0.000000  size  0.975000  1.400000  orientation 0.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "1"
-Shape Rectarrondi Layer front
+Shape Roundrect Layer front
 position -0.937500  0.000000  size  0.975000  1.400000  orientation 0.00
 drill  0.000000
 shape_offset  0.000000  0.000000
@@ -368,13 +389,13 @@ attribut smd
 position 132.605000 122.360000  orientation 180.00
 layer front
 $PAD "2"
-Shape Rectarrondi Layer front
+Shape Roundrect Layer front
 position  0.775000  0.000000  size  0.900000  0.950000  orientation 0.00
 drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "1"
-Shape Rectarrondi Layer front
+Shape Roundrect Layer front
 position -0.775000  0.000000  size  0.900000  0.950000  orientation 0.00
 drill  0.000000
 shape_offset  0.000000  0.000000

@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "(5.0.2-5)-5"
+      "Version":     "(5.1.9-0-10_14)"
     },
-    "CreationDate":  "2023-05-01T14:03:50+02:00"
+    "CreationDate":  "2023-05-06T09:45:43+02:00"
   },
   "GeneralSpecs":
   {
@@ -33,72 +33,72 @@
       "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
       "MinLineWidth":  0.250,
-      "TrackToRegion":  0.384,
-      "RegionToRegion":  0.384
+      "TrackToRegion":  0.381,
+      "RegionToRegion":  0.381
     },
     {
       "Layers": "Inner",
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
-      "TrackToRegion":  0.384,
-      "RegionToRegion":  0.384
+      "TrackToRegion":  0.381,
+      "RegionToRegion":  0.381
     }
   ],
   "FilesAttributes":
   [
     {
-      "Path":  "SS1_ATX-F.Cu.gbr",
+      "Path":  "SS1_ATX-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "SS1_ATX-In1.Cu.gbr",
+      "Path":  "SS1_ATX-In1_Cu.gbr",
       "FileFunction":  "Copper,L2,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "SS1_ATX-In2.Cu.gbr",
+      "Path":  "SS1_ATX-In2_Cu.gbr",
       "FileFunction":  "Copper,L3,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "SS1_ATX-B.Cu.gbr",
+      "Path":  "SS1_ATX-B_Cu.gbr",
       "FileFunction":  "Copper,L4,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "SS1_ATX-F.Paste.gbr",
+      "Path":  "SS1_ATX-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "SS1_ATX-B.Paste.gbr",
+      "Path":  "SS1_ATX-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "SS1_ATX-F.SilkS.gbr",
+      "Path":  "SS1_ATX-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "SS1_ATX-B.SilkS.gbr",
+      "Path":  "SS1_ATX-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "SS1_ATX-F.Mask.gbr",
+      "Path":  "SS1_ATX-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "SS1_ATX-B.Mask.gbr",
+      "Path":  "SS1_ATX-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "SS1_ATX-Edge.Cuts.gbr",
+      "Path":  "SS1_ATX-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
